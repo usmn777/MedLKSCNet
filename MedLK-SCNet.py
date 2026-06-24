@@ -138,7 +138,7 @@ class SPPF(layers.Layer):
         out = tf.concat([x, p1, p2, p3], axis=-1)
         return self.cbs2(out, training=training)
 
-# ==================== FIXED Main Model ====================
+
 
 class MedLKSCNet(Model):
     """Fixed Detection Model for 4-Class Classification"""
